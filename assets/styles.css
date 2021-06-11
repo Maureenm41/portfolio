@@ -47,6 +47,17 @@ nav #mainMenu #closeMenu , i
     display: none;
     cursor: pointer;
 }
+
+.fa-linkedin:hover
+{
+    color: rgb(92, 92, 204);
+}
+
+.fa-github:hover
+{
+    color: rgb(92, 92, 204);
+}
+
 nav #logo
 {
     margin: 6px;
@@ -90,6 +101,12 @@ nav #logo
         background: none;
         color: rgb(57, 163, 163) ;
         font-size: 1.6rem;
+    }
+
+    #icons i
+    {
+        display: inline-block;
+        padding: 12px;
     }
 }
 
