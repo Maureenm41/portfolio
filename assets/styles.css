@@ -60,6 +60,16 @@ nav #logo
     {
         height: 100vh;
         position: fixed;
+        top:  0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgb(57, 163, 163);
+        transition: top 1s ease ;
+        display: none;
     }
 }
 
