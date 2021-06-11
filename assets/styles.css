@@ -110,6 +110,11 @@ nav #logo
     }
 }
 
+#iconMenu
+{
+    size: 10px;
+}
+
 .fab
 {
     color: black;
