@@ -184,3 +184,16 @@ footer
     text-align: center;
 
 }
+
+#pictMe
+{
+    width: 25vh;
+    height: 30vh;
+    border-radius: 100%;
+}
+
+#pictCarrou
+{
+    width: 50vh;
+    height: 50vh;
+}
