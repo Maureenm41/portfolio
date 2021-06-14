@@ -191,6 +191,7 @@ footer
     width: 25vh;
     height: 30vh;
     border-radius: 100%;
+    float: left;
 }
 
 #pictCarrou
@@ -203,4 +204,9 @@ footer
 {
     width: 50vh;
     height: 50vh;
+}
+
+#aboutMe
+{
+    background-color: rgba(0, 0, 0, 0.24);
 }
