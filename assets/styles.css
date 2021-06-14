@@ -146,7 +146,8 @@ nav #logo
 #workSolo
 {
     width: auto;
-    align-items: center;
+    height: auto;
+    align-content: center;
 }
 
 #previewWork
@@ -154,4 +155,14 @@ nav #logo
     height: 40vh;
     width: 45vh;
     border-radius: 10%;
+}
+
+.fa-laptop-code
+{
+    color: black;
+}
+
+.fa-laptop-code:hover
+{
+    color: rgb(38, 113, 184);
 }
