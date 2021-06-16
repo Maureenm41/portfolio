@@ -215,7 +215,7 @@ h4
     height: auto;
     border-radius: 100%;
     float: right;
-    position: absolute;
+    position: relative;
     transform: scaleX(-1); /*this flip the pict*/
     clear: right;
 }
