@@ -189,14 +189,7 @@ h4
 }
 
 
-#pictMe
-{
-    width: 25vh;
-    height: 30vh;
-    border-radius: 100%;
-    float: left;
-    position: sticky;
-}
+
 
 #pictCarrou
 {
@@ -212,8 +205,17 @@ h4
 
 #aboutMe
 {
-    background-color: rgba(0, 0, 0, 0.24);
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#pictMe
+{
+    width: 25vh;
+    height: 30vh;
+    border-radius: 100%;
+    float: left;
+    position: absolute;
 }
 
 footer
