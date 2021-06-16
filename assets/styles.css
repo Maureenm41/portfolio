@@ -162,8 +162,8 @@ nav #logo
 
 #previewWork
 {
-    height: 40vh;
-    width: 45vh;
+    height: 35vh;
+    width: 50vh;
     border-radius: 10%;
     display: flex;
     justify-content: center;
@@ -171,6 +171,7 @@ nav #logo
     margin: 5px;
     margin-left: 20px;
     margin-right: 20px;
+    vertical-align: middle;
 }
 
 h4
