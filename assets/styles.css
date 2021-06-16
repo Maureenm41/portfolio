@@ -211,11 +211,13 @@ h4
 
 #pictMe
 {
-    width: 25vh;
-    height: 30vh;
+    width: auto;
+    height: auto;
     border-radius: 100%;
-    float: left;
+    float: right;
     position: absolute;
+    transform: scaleX(-1); /*this flip the pict*/
+    clear: right;
 }
 
 footer
