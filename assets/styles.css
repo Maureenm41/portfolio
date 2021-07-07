@@ -257,3 +257,13 @@ footer
     max-width: 600px;
     height: auto;
 }
+
+#carroussel #carroussel_item--visible
+{
+    display: block;
+}
+
+#carroussel #carroussel_action
+{
+    display: flex;
+}
