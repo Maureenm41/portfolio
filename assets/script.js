@@ -26,5 +26,11 @@ const totalSlides = slides.length ;
 document.getElementById('carroussel_button--next')
 .addEventListener("click", function()
 {
-    updateSlidesPoisition();
+    moveToNextSlide();
+})
+
+document.getElementById('carroussel_button--prev')
+.addEventListener("click", function()
+{
+    moveToPreviousSlide();
 })
