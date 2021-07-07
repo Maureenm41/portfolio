@@ -39,8 +39,11 @@ function updateSlidePosition()
 {
     for (let slide of slides)
     {
-        slide.classList.remove('carroussel_item--visible')
+        slide.classList.remove('carroussel_item--visible');
+        slide.classList.add('carroussel_item--hidden')
     }
+
+    slides[slidePosition].classList.add('carroussel_item--visible');
 }
 
 function moveToNextSlide()
