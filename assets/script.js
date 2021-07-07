@@ -34,3 +34,13 @@ document.getElementById('carroussel_button--prev')
 {
     moveToPrevSlide();
 })
+
+function moveToNextSlide()
+{
+    console.log('Hello Next')
+}
+
+function moveToPrevSlide()
+{
+    console.log('Hello Previous')
+}
