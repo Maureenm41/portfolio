@@ -35,12 +35,22 @@ document.getElementById('carroussel_button--prev')
     moveToPrevSlide();
 })
 
+function updateSlidePosition()
+{
+    for (let slide of slides)
+    {
+        slide.classList.remove('carroussel_item--visible')
+    }
+}
+
 function moveToNextSlide()
 {
+    updateSlidePosition()
+
     if (slidePosition == totalSlides - 1)
         {
             slidePosition = 0 ;
-        };
+        }
     else
         {
             slidePosition++;
@@ -49,5 +59,15 @@ function moveToNextSlide()
 
 function moveToPrevSlide()
 {
-    console.log('Hello Previous')
+    updateSlidePosition()
+
+    if (slidePosition == 0 )
+    {
+        slidePosition = 0 ;
+    }
+
+    else
+    {
+        slidePosition--;
+    };
 }
