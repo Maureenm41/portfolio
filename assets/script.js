@@ -32,5 +32,5 @@ document.getElementById('carroussel_button--next')
 document.getElementById('carroussel_button--prev')
 .addEventListener("click", function()
 {
-    moveToPreviousSlide();
+    moveToPrevSlide();
 })
