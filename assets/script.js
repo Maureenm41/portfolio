@@ -37,7 +37,14 @@ document.getElementById('carroussel_button--prev')
 
 function moveToNextSlide()
 {
-    console.log('Hello Next')
+    if (slidePosition == totalSlides - 1)
+        {
+            slidePosition = 0 ;
+        };
+    else
+        {
+            slidePosition++;
+        };
 }
 
 function moveToPrevSlide()
