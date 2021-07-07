@@ -48,7 +48,6 @@ function updateSlidePosition()
 
 function moveToNextSlide()
 {
-    updateSlidePosition()
 
     if (slidePosition == totalSlides - 1)
         {
@@ -58,13 +57,14 @@ function moveToNextSlide()
         {
             slidePosition++;
         };
+
+        updateSlidePosition()
 }
 
 function moveToPrevSlide()
 {
-    updateSlidePosition()
 
-    if (slidePosition == 0 )
+    if (slidePosition == totalSlides - 1 )
     {
         slidePosition = 0 ;
     }
@@ -73,4 +73,6 @@ function moveToPrevSlide()
     {
         slidePosition--;
     };
+
+    updateSlidePosition()
 }
