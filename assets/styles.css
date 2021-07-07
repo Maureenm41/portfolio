@@ -6,7 +6,9 @@ html {
 
 body
 {
-    background-color: rgb(57, 163, 163);
+    /*background-color: rgb(57, 163, 163);*/
+    background-color: #000 ;
+    color: #fff;
     font-family:'Cormorant Infant', serif;
     height: auto;
 }
