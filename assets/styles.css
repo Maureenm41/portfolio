@@ -234,3 +234,26 @@ footer
     text-align: center;
 
 }
+
+
+/* style for the Caroussel*/
+
+#carroussel
+{
+    overflow: hidden;
+    max-width: 600px;
+    position: relative;
+}
+
+#carroussel #carroussel_item ,
+#carroussel #carroussel_item--hiden
+{
+    display: none;
+}
+
+#carroussel #carroussel_item img
+{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
