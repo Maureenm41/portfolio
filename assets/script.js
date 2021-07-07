@@ -15,3 +15,12 @@ function close()
     {
         mainMenu.style.top = "-100%";
     }
+
+
+// script for the carroussel 
+
+let slidePosition = 0 ;
+const slides = document.getElementById('carroussel_item') ;
+const totalSlides = slides.length ;
+
+document.getElementById()
