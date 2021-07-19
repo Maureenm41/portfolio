@@ -300,8 +300,9 @@ footer
 
 img
 {
-    margin: auto;
-    padding: auto;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
 }
 
 #soloProject
