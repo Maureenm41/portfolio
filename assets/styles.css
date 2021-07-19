@@ -261,6 +261,7 @@ footer
 #carroussel #carroussel_item--visible
 {
     display: block;
+    animation : fadeVisibility 0.5s ;
 }
 
 #carroussel #carroussel_action
@@ -297,6 +298,8 @@ footer
 {
    margin: auto; 
 }
+
+@keyframes fadeVisibility
 
 img
 {
